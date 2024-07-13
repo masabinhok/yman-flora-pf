@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="max-w-[1320px] h-[100px] flex justify-between items-center w-full p-4">
       <div className="flex flex-1">
         <Link to="/">
-          <h1 className="text-slate-500 text-[60px] max-lg:text-[48px] max-sm:text-[32px] font-florabet  pl-7">
+          <h1 className="font-florabet text-[60px] max-lg:text-[48px] max-sm:text-[32px  pl-7">
             yamandangol
           </h1>
         </Link>

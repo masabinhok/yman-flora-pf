@@ -18,7 +18,7 @@ const Projects = () => {
         extra="Didn't see anything here? scroll then!!!"
       />
 
-      <div className="flex justify-start items-start max-w-[1320px] p-5 gap-5 max-md:flex-col w-full">
+      <div className="flex justify-start items-start max-w-[1320px] p-5 gap-5 max-md:flex-col w-full pb-[96px]">
         {/* Ensure this div takes full width */}
         <div className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-5 w-full">
           {projects.map((project, idx) => (
