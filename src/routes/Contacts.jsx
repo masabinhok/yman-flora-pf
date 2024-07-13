@@ -18,6 +18,7 @@ const Contacts = () => {
 
       <div className="flex justify-start items-start pb-[96px]  max-w-[1320px] w-full p-5 gap-5 max-md:flex-col">
         <div className="flex-1">
+          <h1 className="font-mono text-[30px] py-5 font-bold ">Fill out the form !!</h1>
           <form
             className="flex flex-col gap-4 max-w-[800px] w-full font-mono "
             action=""

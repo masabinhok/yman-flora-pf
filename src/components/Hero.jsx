@@ -14,7 +14,9 @@ const Hero = ({ title, subtitle, extra, imgURL }) => {
         <h1 className="font-mono text-[40px]">{title}</h1>
         <p className="font-mono">{subtitle}</p>
         <div className="p-10 flex items-center justify-center flex-col">
-          <p className="font-mono font-bold text-red-500">{extra}</p>
+          <p className="text-center font-mono font-bold text-red-500">
+            {extra}
+          </p>
         </div>
       </div>
     </div>

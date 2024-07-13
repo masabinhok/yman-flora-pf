@@ -17,7 +17,7 @@ const About = () => {
         imgURL={doll}
       />
 
-      <div className="flex justify-start items-start h-[calc(100vh-100px)] max-w-[1320px] p-5 gap-5 max-md:flex-col">
+      <div className="flex justify-start items-start max-w-[1320px] pb-[96px] p-5 gap-5 max-md:flex-col">
         <div className="flex-1">
           <h1 className="font-mono text-[40px]">About me!</h1>
           <p className="font-mono py-4">

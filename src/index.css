@@ -41,10 +41,8 @@ body::before {
   pointer-events: none;
 }
 
-
-footer {
-  font-family: "ICA rubrik", sans-serif;
-  background-color: #000000;
+.footer {
+  background-color: #ffffff;
   background-image: repeating-linear-gradient(
       to right,
       transparent 0 100px,
@@ -57,7 +55,7 @@ footer {
     );
 }
 
-footer::before {
+.footer::before {
   position: absolute;
   width: min(1400px, 90vw);
   top: 10%;
@@ -71,9 +69,6 @@ footer::before {
   background-position: top center;
   pointer-events: none;
 }
-
-
-
 
 /* ICA Rubrik  */
 /* Poppins */

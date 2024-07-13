@@ -23,7 +23,7 @@ const Home = () => {
           <p className="font-bold text-[30px] text-yblue font-mono">
             i am YAMAN
           </p>
-          <p className="text-[40px] font-mono text-red-500">
+          <p className="text-[40px] font-mono text-red-500 max-md:text-center max-md:text-[30px]">
             a COMP.sci <span className="font-mono  text-slate-500">student</span>
           </p>
           <p className="font-mono max-md:text-center">
