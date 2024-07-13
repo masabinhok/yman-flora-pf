@@ -10,14 +10,14 @@ const Navbar = () => {
           </h1>
         </Link>
       </div>
-      <div className="flex justify-evenly items-center flex-1 text-yblue font-semibold  text-xl max-md:hidden ">
+      <div className="flex justify-evenly items-center flex-1 text-yblue font-semibold  text-xl max-md:hidden font-mono ">
         <Link to="/projects">
           <div className="hover:text-green-500">Projects</div>
         </Link>{" "}
         <Link to="/about">
           <div className="hover:text-green-500">About</div>
         </Link>{" "}
-        <Link to="/projects">
+        <Link to="/contact">
           <div className="hover:text-green-500">Say Hi!</div>
         </Link>
       </div>

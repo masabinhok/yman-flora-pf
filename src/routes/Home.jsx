@@ -18,16 +18,15 @@ const Home = () => {
         </div>
         <div className="flex flex-2 flex-col items-start justify-center max-md:items-center  ">
           <h1 className="font-bold text-[60px] mb-[-20px]  text-pink-500">
-            HELLO!
+            HOLA!
           </h1>
           <p className="font-bold text-[30px] text-yblue font-mono">
-            I AM YAMAN
+            i am YAMAN
           </p>
-          <p className="text-[40px] font-florabet text-red-500">
-            COMP.sci{" "}
-            <span className="font-mono font-bold text-slate-500">STUDENT</span>
+          <p className="text-[40px] font-mono text-red-500">
+            a COMP.sci <span className="font-mono  text-slate-500">student</span>
           </p>
-          <p className="font-florabet text-green-500 max-md:text-center">
+          <p className="font-mono max-md:text-center">
             I craft code and dreams,
             <br /> merging logic with artistry to create tomorrow's innovations.
           </p>
