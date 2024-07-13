@@ -1,0 +1,11 @@
+/* src/fonts.css */
+@font-face {
+  font-family: 'Florabet';
+  src: url('./assets/fonts/Florabet.woff2') format('woff2'),
+       url('./assets/fonts/Florabet.woff') format('woff'),
+       url('./assets/fonts/Florabet.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* You can add more @font-face rules here if you have different font weights or styles */
