@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { doll } from "../assets/image";
 import Hero from "../components/Hero";
+import education from "../constants/edu";
+import Education from "../components/Education";
 
 const About = () => {
   return (
@@ -46,6 +48,19 @@ const About = () => {
             src={doll}
             alt="i am a smiley"
           />
+        </div>
+      </div>
+
+      <div className="flex max-w-[1320px] flex-col items-center justify-center ">
+        <h1 className="font-mono text-red-500">
+          Let me tell you about my education, I am literate enoughh!
+        </h1>
+        <div className="flex justify-between flex-col items-center gap-5">
+          {education.map((edu, idx) => (
+            <div key={idx}>
+              <Education edu={edu} />
+            </div>
+          ))}
         </div>
       </div>
 
